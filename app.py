@@ -8,7 +8,7 @@ def main():
     return render_template("index.html")
 
 @app.route('/', methods=['POST'])
-def covid_stats():
+def maths_operations():
     equation = request.form['text']
     operation = request.form['operation']
 
